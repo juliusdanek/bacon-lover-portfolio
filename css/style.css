@@ -9,15 +9,14 @@ body {
 	max-width: 1000px;
 }
 
-#toprow {
-	margin-top: 3em;
-	border-bottom: 2px solid #BCBBBB;
+.toprow {
+	margin: 3em -15px 1em;
+	border-bottom: 2px solid #bcbbbb;
 	padding-bottom: 2em;
-	margin-bottom: 1em;
 }
 
 @media (max-width: 768px) {
-	#middlerow {
+	.middlerow {
 		display: none;
 	}
 	h1 {
@@ -25,11 +24,11 @@ body {
 	}
 }
 
-#middlerow h3 {
+.middlerow h3 {
 	text-align: center;;
 }
 
-#middlerow p {
+.middlerow p {
 	text-align: center;
 }
 
